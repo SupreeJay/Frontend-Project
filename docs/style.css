@@ -12,8 +12,6 @@ html{
 body{
   display: grid;
   place-items: center;
-  margin: auto;
-  padding-top: 50px;
 }
 #gen_container{
   width:60.0vw ;
@@ -31,6 +29,7 @@ body{
   text-align: center;
   margin:auto;
 }
+
 /* First Part */
 #first-part{
   display: flex;
