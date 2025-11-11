@@ -19,6 +19,7 @@ html{
 body{
   display: grid;
   place-items: center;
+  padding-top: 50px;
 }
 #gen_container{
   width:60.0vw ;
@@ -143,6 +144,7 @@ body{
   border: 1px solid green;
   width: 35px;
   height: 35px;
+  margin-right: 15px;
 }
 .normal p{
   margin-left: 10px;
