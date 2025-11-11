@@ -6,19 +6,13 @@ html{
   margin:0;
   padding: 7px 30px 0px 30px;
   font-family:Comic Sans MS;
- /* overflow-x: hidden;*/
-  /*overflow-y: hidden;*/
-  /*width:100vw;*/
-  /*height:100vh;*/
- /* background:linear-gradient(rgba(173, 216, 230, .4), rgba(0, 0, 128, .8)),url('../Pics/coder_Image.png') ;*/
-  /*object-fit: contain;*/
   text-align: center;
-  /*color:#fcf5e5; */
   background-color: #f5fefd;
 }
 body{
   display: grid;
   place-items: center;
+  margin: auto;
   padding-top: 50px;
 }
 #gen_container{
@@ -31,7 +25,6 @@ body{
   justify-content: flex-end;
   border-radius:30px;
   box-shadow:1px 1px 7px 1px gray;
-  /*background-image: linear-gradient(to bottom,white, black),*/
   background-image: linear-gradient(to bottom, rgba(255, 255, 255,.1) 25%, rgba(0, 0, 0, .76) 100%),url('./Pics/profile_pics_6.png');
   background-size: 100% 100%;
   color:white;
@@ -148,7 +141,7 @@ body{
   margin-right: 5px;
 }
 .normal p{
-  margin-left: 10px;
+  margin-left:0px;
 }
 .button_2{
 border:1px solid black;
