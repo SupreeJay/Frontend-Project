@@ -17,10 +17,8 @@ html{
   background-color: #f5fefd;
 }
 body{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-items: center;
 }
 #gen_container{
   width:60.0vw ;
@@ -147,7 +145,7 @@ body{
   height: 35px;
 }
 .normal p{
-  margin-left: -20px;
+  margin-left: 10px;
 }
 .button_2{
 border:1px solid black;
@@ -176,4 +174,5 @@ box-Shadow: 0px 0px 0px 0px black;
 /* alert("Bookmarked");*/
  border :1px solid white;
  background:black;
+ transition : .1s ease-in-out; 
 }
